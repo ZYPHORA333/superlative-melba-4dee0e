@@ -99,3 +99,26 @@ a:focus-visible,button:focus-visible{outline:3px solid #efc981;outline-offset:3p
 .sg10-form details p{font-size:13px}
 @media(max-width:850px){.sg10-grid{grid-template-columns:1fr}}
 @media(max-width:500px){.sg10-panel{padding:16px}.sg10-line{flex-wrap:wrap}.sg10-tabs a{font-size:11px}}
+
+
+/* Detailed cabin and underground shelter studio */
+#building-plans .build-controls{display:flex;flex-wrap:wrap;align-items:end;gap:14px}
+#building-plans .build-controls label{min-width:170px;flex:1 1 170px}
+#building-plans .build-controls select,#building-plans .build-controls input{width:100%;min-width:0}
+#buildResult{display:grid;grid-template-columns:1fr;gap:18px;margin-top:22px}
+.build-advanced-card{border:1px solid rgba(226,185,110,.45);border-radius:15px;padding:22px;background:linear-gradient(145deg,#0e2a43,#0a1c30);color:#e9f1f7;min-width:0}
+.build-advanced-card h3{color:#f1c985;margin:0 0 16px}
+.build-advanced-card h4{color:#f1c985}
+.build-plan-svg,.build-bunker-svg{display:block;width:100%;height:auto;max-height:660px;margin:12px auto;background:#0b2238;border-radius:12px}
+.build-bunker-svg{max-width:850px}
+.build-advanced-metrics{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.build-advanced-metrics>div{border:1px solid #b48b4c;border-radius:12px;background:#102d45;padding:16px;display:flex;flex-direction:column;gap:9px}
+.build-advanced-metrics small{color:#d0dbe5}
+.build-advanced-metrics strong{color:#f5d49a;font-size:20px}
+.build-material-list{overflow-x:auto}
+.build-material-list table{width:100%;border-collapse:collapse;min-width:620px}
+.build-material-list th,.build-material-list td{border-bottom:1px solid #466075;padding:12px;text-align:left;vertical-align:top;line-height:1.5}
+.build-material-list th{color:#f5d49a}
+.build-advanced-card li{margin:10px 0;line-height:1.55}
+#buildSaveStatus{color:#f4d196;margin-top:10px}
+@media(max-width:760px){.build-advanced-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.build-advanced-card{padding:14px}}
