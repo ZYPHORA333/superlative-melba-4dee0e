@@ -1,43 +1,69 @@
-const $=id=>document.getElementById(id);
-const providers=[{name:"LandWatch",url:"https://www.landwatch.com/",desc:"Rural land, farms, ranches, acreage and listing photographs"},{name:"Land.com",url:"https://www.land.com/",desc:"Land listings with seller photos, acreage and broker details"},{name:"Land And Farm",url:"https://www.landandfarm.com/",desc:"Farms, recreational parcels and rural land"},{name:"LandApp",url:"https://www.landapp.com/landapp-features/listings",desc:"Nationwide land listings with parcel research tools"}];
-function renderLand(){
-  const q=$("landQuery").value.trim(), min=$("landMin").value,max=$("landMax").value;
-  $("landProviderList").replaceChildren();
-  for(const p of providers){
-    const card=document.createElement("article");card.className="intel-card";
-    const h=document.createElement("h3");h.textContent=p.name;
-    const desc=document.createElement("p");desc.textContent=p.desc;
-    const a=document.createElement("a");a.href=p.url;a.target="_blank";a.rel="noopener noreferrer";a.textContent="Browse verified source listings and property photos ↗";
-    card.append(h,desc,a);$("landProviderList").append(card);
-  }
-  $("landSearchNote").textContent=q||min||max?"Search preferences: "+[q&&"Area: "+q,min&&"Min acres: "+min,max&&"Max price: $"+max].filter(Boolean).join(" · ")+". Open a provider above and apply these filters there. NORTHSTAR does not claim to import or verify their listings.":"Choose a provider to view actual listings and photographs on its website.";
+const byId=id=>document.getElementById(id);
+const landSources=[
+ ["LandWatch","landwatch.com","Rural acreage, farms, cabins and seller photographs"],
+ ["Land.com","land.com","Rural land and broker listing photography"],
+ ["LandSearch","landsearch.com","Vacant land, homesteads and acreage"],
+ ["Land And Farm","landandfarm.com","Farms, ranches and recreational land"]
+];
+const states={AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming",DC:"District of Columbia"};
+for(const [code,name] of Object.entries(states)){const o=document.createElement("option");o.value=code;o.textContent=name;byId("alertState").append(o)}
+function mapAt(id,center,zoom){if(!window.L)return null;const m=L.map(id,{scrollWheelZoom:false}).setView(center,zoom);L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',maxZoom:18}).addTo(m);setTimeout(()=>m.invalidateSize(),100);return m}
+const landMap=mapAt("landSearchMap",[39,-98],4),alertMap=mapAt("alertMap",[39,-98],4);
+const landPins=landMap?L.layerGroup().addTo(landMap):null,alertPins=alertMap?L.layerGroup().addTo(alertMap):null;
+const element=(tag,txt,cls)=>{const x=document.createElement(tag);if(txt!==undefined)x.textContent=txt;if(cls)x.className=cls;return x};
+function link(title,url){const a=element("a",title);a.href=url;a.target="_blank";a.rel="noopener noreferrer";return a}
+function searchCards(area,min,max){
+ const root=byId("landProviderList");root.replaceChildren();
+ const term=[area||"United States","land for sale",min?"at least "+min+" acres":"",max?"under $"+max:""].filter(Boolean).join(" ");
+ for(const [name,domain,desc] of landSources){const card=element("article",undefined,"intel-card");card.append(element("h3",name),element("p",desc),link("Search matching listings and property photos ↗","https://www.google.com/search?"+new URLSearchParams({q:"site:"+domain+" "+term})),link("Browse marketplace ↗","https://www."+domain+"/"));root.append(card)}
 }
-$("landSearch").onclick=renderLand;renderLand();
-const status=(s)=>{$("intelStatus").textContent=s};
-const badge=(text)=>{const s=document.createElement("span");s.className="intel-tag";s.textContent=text;return s};
-const add=(root,title,desc,url,meta)=>{
- const card=document.createElement("article");card.className="intel-card";
- const h=document.createElement("h3");h.textContent=title;
- const p=document.createElement("p");p.textContent=desc;
- card.append(h,p);
- if(meta)card.append(badge(meta));
- const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener noreferrer";a.textContent="Open official source ↗";card.append(a);root.append(card);
-};
+async function landSearch(){
+ const area=byId("landQuery").value.trim(),min=byId("landMin").value,max=byId("landMax").value;
+ if((min!==""&&(+min<0||!Number.isFinite(+min)))||(max!==""&&(+max<0||!Number.isFinite(+max)))){byId("landSearchNote").textContent="Use nonnegative numbers for acreage and budget.";return}
+ searchCards(area,min,max);
+ const note=byId("landSearchNote");note.textContent="Search ready. Select a marketplace result to view real listing photos, prices and availability. These are targeted external searches, not an embedded live listing database.";
+ if(!area||!landMap)return;
+ note.textContent="Locating "+area+" on the map…";
+ try{
+  const url="https://nominatim.openstreetmap.org/search?"+new URLSearchParams({q:area,format:"json",limit:"1",countrycodes:"us",addressdetails:"1"});
+  const r=await fetch(url,{headers:{Accept:"application/json"}});if(!r.ok)throw Error("Geocoding unavailable");
+  const results=await r.json();if(!results.length){note.textContent="Location not found on map. Marketplace searches are ready below; try a city, county or state.";return}
+  const p=results[0];landPins.clearLayers();const lat=+p.lat,lon=+p.lon;
+  if(p.boundingbox){const b=p.boundingbox.map(Number);landMap.fitBounds([[b[0],b[2]],[b[1],b[3]]],{maxZoom:11})}else landMap.setView([lat,lon],9);
+  L.marker([lat,lon]).addTo(landPins).bindPopup(element("span",p.display_name)).openPopup();
+  note.textContent="Mapped "+p.display_name+". Search results below open real property marketplaces; this pin marks the area, not an individual property.";
+ }catch(e){note.textContent="Map location lookup unavailable. Marketplace search links below are still ready."}
+}
+byId("landSearch").addEventListener("click",landSearch);
+["landQuery","landMin","landMax"].forEach(id=>byId(id).addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();landSearch()}}));
+searchCards("","","");
+let alerts=[],quakes=[],failures=[];
+const sourceCard=(title,detail,url,meta)=>{const c=element("article",undefined,"intel-card");c.append(element("h3",title),element("p",detail),element("span",meta,"intel-tag"),link("View official report ↗",url));return c};
+const safeUrl=(url,fallback)=>typeof url==="string"&&url.startsWith("https://")?url:fallback;
+async function getJson(url){const ctrl=new AbortController();const timer=setTimeout(()=>ctrl.abort(),12000);try{const r=await fetch(url,{signal:ctrl.signal,headers:{Accept:"application/geo+json, application/json"}});if(!r.ok)throw Error("HTTP "+r.status);return await r.json()}finally{clearTimeout(timer)}}
 async function loadAlerts(){
- const root=$("nationalAlerts");root.replaceChildren();status("Loading official US alerts and recent earthquakes…");
- const results=await Promise.allSettled([
-   fetch("https://api.weather.gov/alerts/active?status=actual",{headers:{Accept:"application/geo+json"}}).then(r=>{if(!r.ok)throw Error("NWS "+r.status);return r.json()}),
-   fetch("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson").then(r=>{if(!r.ok)throw Error("USGS "+r.status);return r.json()})
- ]);
- let shown=0;
- if(results[0].status==="fulfilled"){
-  const alerts=(results[0].value.features||[]).filter(x=>x.properties?.headline).sort((a,b)=>Date.parse(b.properties.sent||0)-Date.parse(a.properties.sent||0)).slice(0,16);
-  for(const item of alerts){const p=item.properties;add(root,p.event||"Weather alert",p.headline||"Official National Weather Service bulletin",p["@id"]||p.uri||"https://www.weather.gov/alerts",p.severity+" · "+(p.areaDesc||"United States").slice(0,95));shown++}
- }else add(root,"Weather alerts temporarily unavailable","View the official NWS alerts page directly.","https://www.weather.gov/alerts","Source unavailable");
- if(results[1].status==="fulfilled"){
-  const quakes=(results[1].value.features||[]).slice(0,10);
-  for(const item of quakes){const p=item.properties;add(root,"M "+Number(p.mag).toFixed(1)+" earthquake",p.place||"Location unavailable",p.url||"https://earthquake.usgs.gov/earthquakes/map/","USGS · "+new Date(p.time).toLocaleString());shown++}
- }else add(root,"Earthquake feed temporarily unavailable","View recent earthquakes on the official USGS map.","https://earthquake.usgs.gov/earthquakes/map/","Source unavailable");
- status("Official sources checked "+new Date().toLocaleString()+". "+shown+" reports displayed. This is not a comprehensive emergency notification system.");
+ const root=byId("nationalAlerts");root.replaceChildren();byId("intelStatus").textContent="Loading current official NWS alerts and USGS earthquakes…";
+ const data=await Promise.allSettled([getJson("https://api.weather.gov/alerts/active"),getJson("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson")]);
+ failures=[];alerts=data[0].status==="fulfilled"?(data[0].value.features||[]):(failures.push("NWS alerts"),[]);
+ quakes=data[1].status==="fulfilled"?(data[1].value.features||[]):(failures.push("USGS earthquakes"),[]);
+ renderAlerts();
 }
-$("refreshIntel").onclick=loadAlerts;loadAlerts();
+function renderAlerts(){
+ const state=byId("alertState").value,root=byId("nationalAlerts");root.replaceChildren();if(alertPins)alertPins.clearLayers();
+ const selected=alerts.filter(x=>{const p=x.properties||{};return !state||(p.geocode?.UGC||[]).some(v=>v.startsWith(state))||(p.areaDesc||"").toLowerCase().includes((states[state]||"").toLowerCase())}).sort((a,b)=>Date.parse(b.properties?.sent||0)-Date.parse(a.properties?.sent||0)).slice(0,35);
+ for(const x of selected){const p=x.properties||{};root.append(sourceCard(p.event||"Weather alert",p.headline||p.description?.slice(0,180)||"Official weather bulletin",safeUrl(p["@id"]||p.uri,"https://www.weather.gov/alerts"),(p.severity||"Alert")+" · "+(p.areaDesc||"Area not specified").slice(0,110)))}
+ let earthquakeCount=0;
+ for(const q of quakes){const p=q.properties||{},coords=q.geometry?.coordinates;if(!coords||coords.length<2)continue;
+  if(state){const name=(p.place||"").toLowerCase(),full=(states[state]||"").toLowerCase();if(!name.includes(full)&&!name.includes(", "+state.toLowerCase()))continue}
+  earthquakeCount++;if(earthquakeCount<=20)root.append(sourceCard("M "+Number(p.mag||0).toFixed(1)+" earthquake",p.place||"Location not specified",safeUrl(p.url,"https://earthquake.usgs.gov/earthquakes/map/"),"USGS · "+new Date(p.time).toLocaleString()));
+  if(alertPins){const marker=L.circleMarker([coords[1],coords[0]],{radius:Math.max(4,Math.min(13,(+p.mag||0)*2)),color:"#b35e37",fillOpacity:.7});marker.addTo(alertPins).bindPopup(element("span","M "+p.mag+" · "+(p.place||"Earthquake")))}
+ }
+ for(const x of selected){const geom=x.geometry;if(!geom||!alertPins)continue;try{const layer=L.geoJSON(geom,{style:{color:"#df9a4e",weight:2,fillOpacity:.1}});layer.addTo(alertPins)}catch{}}
+ if(!selected.length&&!earthquakeCount)root.append(sourceCard("No reports in this selection","No matching records returned from the current feeds. This does not establish that an area is safe.","https://www.weather.gov/alerts","Check local emergency management"));
+ if(failures.length)for(const name of failures)root.prepend(sourceCard(name+" temporarily unavailable","Live source could not be reached from this browser. Open the official website for current information.",name.startsWith("NWS")?"https://www.weather.gov/alerts":"https://earthquake.usgs.gov/earthquakes/map/","Source connection failed"));
+ byId("intelStatus").textContent="Last checked "+new Date().toLocaleString()+" · "+selected.length+" NWS alerts · "+earthquakeCount+" USGS earthquakes"+(failures.length?" · Unavailable: "+failures.join(", "):"")+". Map shows located earthquakes and available alert polygons; some alerts lack geometry.";
+ if(alertMap)setTimeout(()=>alertMap.invalidateSize(),100);
+}
+byId("alertState").addEventListener("change",renderAlerts);
+byId("refreshIntel").addEventListener("click",loadAlerts);
+loadAlerts();
