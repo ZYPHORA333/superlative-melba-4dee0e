@@ -50,11 +50,13 @@ async function loadAlerts(){
 }
 function renderAlerts(){
  const state=byId("alertState").value,root=byId("nationalAlerts");root.replaceChildren();if(alertPins)alertPins.clearLayers();
- const selected=alerts.filter(x=>{const p=x.properties||{};return !state||(p.geocode?.UGC||[]).some(v=>v.startsWith(state))||(p.areaDesc||"").toLowerCase().includes((states[state]||"").toLowerCase())}).sort((a,b)=>Date.parse(b.properties?.sent||0)-Date.parse(a.properties?.sent||0)).slice(0,35);
+ const inState=x=>{const p=x.properties||{};if(!state)return true;const ugc=p.geocode?.UGC||[];const sameUGC=ugc.some(v=>v.startsWith(state));const parts=(p.areaDesc||"").split(/[;,]/).map(s=>s.trim().toLowerCase());const full=states[state].toLowerCase();const sameArea=parts.some(s=>s===full||s.endsWith(", "+full));return sameUGC||sameArea};
+ const unique=new Set();
+ const selected=alerts.filter(inState).sort((a,b)=>Date.parse(b.properties?.sent||0)-Date.parse(a.properties?.sent||0)).filter(x=>{const p=x.properties||{};const id=p.id||p["@id"]||x.id;const key=id||[p.event,(p.headline||"").trim().toLowerCase(),(p.areaDesc||"").trim().toLowerCase()].join("|");if(unique.has(key))return false;unique.add(key);return true}).slice(0,35);
  for(const x of selected){const p=x.properties||{};root.append(sourceCard(p.event||"Weather alert",p.headline||p.description?.slice(0,180)||"Official weather bulletin",safeUrl(p["@id"]||p.uri,"https://www.weather.gov/alerts"),(p.severity||"Alert")+" · "+(p.areaDesc||"Area not specified").slice(0,110)))}
  let earthquakeCount=0;
  for(const q of quakes){const p=q.properties||{},coords=q.geometry?.coordinates;if(!coords||coords.length<2)continue;
-  if(state){const name=(p.place||"").toLowerCase(),full=(states[state]||"").toLowerCase();if(!name.includes(full)&&!name.includes(", "+state.toLowerCase()))continue}
+  if(state){const name=(p.place||"").toLowerCase(),full=states[state].toLowerCase();if(!name.endsWith(", "+state.toLowerCase())&&!name.endsWith(", "+full))continue}
   earthquakeCount++;if(earthquakeCount<=20)root.append(sourceCard("M "+Number(p.mag||0).toFixed(1)+" earthquake",p.place||"Location not specified",safeUrl(p.url,"https://earthquake.usgs.gov/earthquakes/map/"),"USGS · "+new Date(p.time).toLocaleString()));
   if(alertPins){const marker=L.circleMarker([coords[1],coords[0]],{radius:Math.max(4,Math.min(13,(+p.mag||0)*2)),color:"#b35e37",fillOpacity:.7});marker.addTo(alertPins).bindPopup(element("span","M "+p.mag+" · "+(p.place||"Earthquake")))}
  }
