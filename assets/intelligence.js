@@ -15,7 +15,7 @@ function link(title,url){const a=element("a",title);a.href=url;a.target="_blank"
 function searchCards(area,min,max){
  const root=byId("landProviderList");root.replaceChildren();
  const term=[area||"United States","land for sale",min?"at least "+min+" acres":"",max?"under $"+max:""].filter(Boolean).join(" ");
- for(const [name,domain,desc] of landSources){const card=element("article",undefined,"intel-card");card.append(element("h3",name),element("p",desc),link("Search matching listings and property photos ↗","https://www.google.com/search?"+new URLSearchParams({q:"site:"+domain+" "+term})),link("Browse marketplace ↗","https://www."+domain+"/"));root.append(card)}
+ for(const [name,domain,desc] of landSources){const card=element("article",undefined,"intel-card");card.append(element("h3",name),element("p",desc),link("Browse marketplace ↗","https://www."+domain+"/"));root.append(card)}
 }
 async function landSearch(){
  const area=byId("landQuery").value.trim(),min=byId("landMin").value,max=byId("landMax").value;
