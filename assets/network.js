@@ -7,7 +7,7 @@ const node=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefi
 const panel=(title)=>{const e=node("div",undefined,"network-panel");e.append(node("h3",title));return e};
 const field=(p,title,type,value="")=>{const l=node("label",title),i=document.createElement("input");i.type=type;i.value=value;l.append(i);p.append(l);return i};
 const btn=(p,label,fn)=>{const b=node("button",label);b.type="button";b.onclick=fn;p.append(b);return b};
-const link=(p,title,url)=>{const a=node("a",title+" ↗");a.href=url;a.target="_blank";a.rel="noopener noreferrer";p.append(a)};
+const link=(p,title,url)=>{const a=node("a",title+" ↗");a.href=url;if(!url.startsWith("#")){a.target="_blank";a.rel="noopener noreferrer"}p.append(a)};
 const notice=s=>{$("networkMessage").textContent=s};
 const root=$("networkWorkspace"),nav=$("networkTabs");
 function layout(title,description){root.replaceChildren();root.append(node("h3",title),node("p",description,"network-muted"));const g=node("div",undefined,"network-grid");root.append(g);const m=node("p","","network-note");m.id="networkMessage";root.append(m);return g}
