@@ -1,5 +1,5 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
-const supabase = createClient("https://brdzufxstglpzkjjvrmw.supabase.co", "sb_publishable_cP7aeVtzL4s6JPVfVZoRDQ_ex6N5sHI", { auth: { autoRefreshToken: true, persistSession: true, detectSessionInUrl: true } });
+export const supabase = createClient("https://brdzufxstglpzkjjvrmw.supabase.co", "sb_publishable_cP7aeVtzL4s6JPVfVZoRDQ_ex6N5sHI", { auth: { autoRefreshToken: true, persistSession: true, detectSessionInUrl: true } });
 const el = id => document.getElementById(id);
 const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const status = (message, error=false) => { el("accountStatus").textContent = message; el("accountStatus").style.color = error ? "#ffaaa3" : ""; };
