@@ -26,7 +26,7 @@ if not errors:
             if len(ids) != len(recipes) or len(ids) != len(set(ids)):
                 errors.append("Recipe IDs must exist and be unique")
             for category in ("breakfast", "lunch", "dinner"):
-                count = sum(isinstance(i, str) and re.fullmatch(rf"{category}-\\d+", i) is not None for i in ids)
+                count = sum(isinstance(i, str) and re.fullmatch(rf"{category}-\d+", i) is not None for i in ids)
                 if count != 30:
                     errors.append(f"Expected 30 {category} recipes; found {count}")
             if len(recipes) != 90:
