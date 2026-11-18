@@ -74,3 +74,28 @@ a:focus-visible,button:focus-visible{outline:3px solid #efc981;outline-offset:3p
 .sg-smart-task input{margin-top:5px;accent-color:#e9bc71;min-width:18px;min-height:18px}
 @media(max-width:800px){.sg-smart-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.sg-smart-grid{grid-template-columns:1fr}}
+
+
+/* SUNJOVIA GLOBAL 2.0 — ten pillar hub */
+.sg10{scroll-margin-top:90px}
+.sg10-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 28px}
+.sg10-tabs a{border:1px solid rgba(232,190,120,.5);border-radius:999px;padding:9px 13px;color:#f2dbb3;background:#0b2137;text-decoration:none;font-size:12px}
+.sg10-tabs a:hover{background:#b98b47;color:#061322}
+.sg10-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.sg10-panel{scroll-margin-top:105px;border:1px solid rgba(224,181,108,.4);border-radius:18px;background:linear-gradient(145deg,#102b43,#071b30);padding:24px;min-width:0;box-shadow:0 12px 30px #0003}
+.sg10-panel h3{font-family:Georgia,serif;color:#f4d299;font-size:25px;margin:4px 0 18px}
+.sg10-panel p,.sg10-panel a{line-height:1.6}
+.sg10-panel a{color:#eec987}
+.sg10-form{display:flex;flex-direction:column;gap:13px}
+.sg10-form label{display:flex;flex-direction:column;gap:6px;font-size:13px;color:#dce8f4}
+.sg10-form input,.sg10-form select,.sg10-form textarea{width:100%;min-width:0;border:1px solid #728a9c;border-radius:8px;background:#f7fafb;color:#10263b;padding:11px;font:inherit}
+.sg10-form button{align-self:flex-start;border:1px solid #e7bb75;background:#d8a861;color:#091a2d;border-radius:8px;padding:9px 13px;font-weight:700;cursor:pointer}
+.sg10-form button:hover{background:#f1cf96}
+.sg10-line{display:flex;gap:10px;align-items:center;justify-content:space-between;border-bottom:1px solid #38516a;padding:9px 0;line-height:1.5}
+.sg10-line span{overflow-wrap:anywhere;min-width:0}
+.sg10-line button{flex-shrink:0;font-size:11px}
+.sg10-form details{border:1px solid #36526b;padding:12px;border-radius:10px;margin:7px 0}
+.sg10-form summary{cursor:pointer;font-weight:700}
+.sg10-form details p{font-size:13px}
+@media(max-width:850px){.sg10-grid{grid-template-columns:1fr}}
+@media(max-width:500px){.sg10-panel{padding:16px}.sg10-line{flex-wrap:wrap}.sg10-tabs a{font-size:11px}}
