@@ -31,3 +31,28 @@ h2,h3{color:#f3f5f8}h2 em{color:#e9bf7c}
 a:focus-visible,button:focus-visible{outline:3px solid #efc981;outline-offset:3px}
 @media(max-width:900px){.top{min-height:72px}.hero{min-height:650px;background-position:57% center}.heroShade{padding-top:105px}.heroStats{display:flex}.top nav{gap:8px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+
+/* SUNJOVIA GLOBAL: globe command-center homepage */
+.sg-hero{min-height:900px;padding:0 2.2% 38px;display:flex;flex-direction:column;justify-content:flex-end;gap:25px;background:linear-gradient(180deg,rgba(0,8,22,.12),rgba(0,8,22,.04) 25%,rgba(0,8,22,.30) 53%,#030b1a 100%),url('https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&w=3840&q=95') center 32%/cover no-repeat #030b1a}
+.sg-hero:before{background:radial-gradient(circle at 77% 13%,rgba(255,187,94,.25),transparent 19%),linear-gradient(0deg,#030b1a 0%,transparent 33%);pointer-events:none}
+.sg-hero-head{position:relative;text-align:center;z-index:1;padding:175px 12px 5px;text-shadow:0 3px 22px #000;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end}
+.sg-kicker{font-size:12px;letter-spacing:.24em;color:#f5cf91;font-weight:700;margin-bottom:35px}
+.sg-hero-intro{letter-spacing:.34em;font-size:14px;margin:0 0 14px;color:#f8f4ed}
+.sg-hero-head h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(26px,3.25vw,54px);font-weight:500;letter-spacing:.015em;line-height:1.12;margin:0;max-width:1120px;color:#fff5e4}
+.sg-star{color:#ffcf7d;font-size:34px;text-shadow:0 0 20px #ffac44}
+.sg-cards{position:relative;z-index:1;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:11px;width:100%}
+.sg-card{position:relative;isolation:isolate;min-height:280px;border:1px solid #cf9c4d;border-radius:16px;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;text-align:center;padding:18px 9px;color:#fff;text-decoration:none;box-shadow:inset 0 0 0 1px rgba(251,206,129,.2),0 12px 32px #0008;background:#07172b}
+.sg-card:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#020916 0%,rgba(2,9,22,.92) 25%,rgba(2,9,22,.06) 95%),var(--card-img) center/cover no-repeat;transition:transform .35s ease}
+.sg-card:hover:before{transform:scale(1.07)}.sg-card:hover{border-color:#ffe2a1}
+.sg-card-icon{font-size:28px;color:#e8b75d;text-shadow:0 0 14px #000;margin-bottom:6px}
+.sg-card strong{font-size:clamp(12px,1.05vw,17px);line-height:1.2;min-height:41px;display:flex;align-items:center;justify-content:center}
+.sg-card small{font-size:11px;color:#e6e9ec;line-height:1.4;min-height:42px;margin:8px 0}
+.sg-arrow{display:grid;place-items:center;border:1px solid #f4bf66;color:#f4bf66;width:31px;height:31px;border-radius:50%;font-size:18px}
+.sg-actions{position:relative;z-index:1;display:flex;flex-wrap:wrap;justify-content:center;gap:14px}
+.sg-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:43px;padding:8px 20px;border:1px solid #d9a65e;border-radius:40px;background:rgba(1,11,25,.8);color:#fff;text-decoration:none;font-size:12px;letter-spacing:.02em}
+.sg-actions a:hover{background:#b78a46;color:#06101f}.sg-note{font-size:11px;text-align:center;color:#b6c9dd;margin:0}
+.top{position:sticky}.top nav a{white-space:nowrap}
+#explorer #regionSearch{width:100%;max-width:100%;margin:7px 0}#explorer optgroup{color:#0c2136}
+@media(max-width:1150px){.sg-cards{grid-template-columns:repeat(4,minmax(0,1fr))}.sg-hero{min-height:1100px}.sg-card{min-height:245px}}
+@media(max-width:650px){.sg-hero{padding:20px 3% 35px;min-height:900px}.sg-hero-head{padding-top:90px}.sg-hero-head h1{font-size:27px}.sg-kicker{font-size:9px;letter-spacing:.11em}.sg-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.sg-card{min-height:210px;padding:10px 6px}.sg-card strong{font-size:12px}.sg-card small{font-size:10px}.sg-actions a{flex:1 1 42%;font-size:10px;padding:8px}.sg-hero-intro{font-size:10px}}
