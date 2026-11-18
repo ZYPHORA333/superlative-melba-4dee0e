@@ -1,0 +1,4513 @@
+[
+  {
+    "id": "breakfast-01",
+    "day": 1,
+    "category": "breakfast",
+    "name": "Blueberry Protein Overnight Oats",
+    "ingredients": [
+      {
+        "name": "rolled oats",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Greek yogurt",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 240,
+        "unit": "ml"
+      },
+      {
+        "name": "blueberries",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "chia seeds",
+        "quantity": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare rolled oats until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Wash and prepare blueberries; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for blueberry protein overnight oats, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 642,
+    "protein": 40,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-02",
+    "day": 2,
+    "category": "breakfast",
+    "name": "Turkey Sausage Egg Scramble",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "turkey sausage",
+        "quantity": 90,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "whole wheat bread",
+        "quantity": 2,
+        "unit": "slices"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook eggs, turkey sausage in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare spinach, tomatoes; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for turkey sausage egg scramble, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 524,
+    "protein": 39,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-03",
+    "day": 3,
+    "category": "breakfast",
+    "name": "Peanut Butter Banana Oat Bowl",
+    "ingredients": [
+      {
+        "name": "rolled oats",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 240,
+        "unit": "ml"
+      },
+      {
+        "name": "banana",
+        "quantity": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "peanut butter",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare rolled oats until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Wash and prepare banana; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for peanut butter banana oat bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 650,
+    "protein": 24,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-04",
+    "day": 4,
+    "category": "breakfast",
+    "name": "Mediterranean Breakfast Wrap",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "whole wheat tortilla",
+        "quantity": 1,
+        "unit": "large"
+      },
+      {
+        "name": "feta",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook eggs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare spinach, tomatoes; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for mediterranean breakfast wrap, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 510,
+    "protein": 30,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-05",
+    "day": 5,
+    "category": "breakfast",
+    "name": "Strawberry Yogurt Crunch",
+    "ingredients": [
+      {
+        "name": "Greek yogurt",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "strawberries",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "whole grain cereal",
+        "quantity": 65,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "quantity": 30,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare whole grain cereal until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Wash and prepare strawberries; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for strawberry yogurt crunch, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 582,
+    "protein": 35,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-06",
+    "day": 6,
+    "category": "breakfast",
+    "name": "Sweet Potato Egg Hash",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "sweet potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "mixed peppers",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare sweet potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook eggs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for sweet potato egg hash, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 516,
+    "protein": 20,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-07",
+    "day": 7,
+    "category": "breakfast",
+    "name": "Apple Cinnamon Cottage Bowl",
+    "ingredients": [
+      {
+        "name": "cottage cheese",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "apple",
+        "quantity": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "rolled oats",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "name": "walnuts",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare rolled oats until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Wash and prepare apple; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for apple cinnamon cottage bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 698,
+    "protein": 36,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-08",
+    "day": 8,
+    "category": "breakfast",
+    "name": "Smoked-Style Salmon Breakfast Toast",
+    "ingredients": [
+      {
+        "name": "salmon",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "whole wheat bread",
+        "quantity": 2,
+        "unit": "slices"
+      },
+      {
+        "name": "avocado",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook salmon in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare avocado, cucumber; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for smoked-style salmon breakfast toast, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 676,
+    "protein": 45,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-09",
+    "day": 9,
+    "category": "breakfast",
+    "name": "Black Bean Breakfast Burrito",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "black beans",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "whole wheat tortilla",
+        "quantity": 1,
+        "unit": "large"
+      },
+      {
+        "name": "salsa",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "cheddar",
+        "quantity": 35,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook eggs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Combine the components for black bean breakfast burrito, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 720,
+    "protein": 43,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-10",
+    "day": 10,
+    "category": "breakfast",
+    "name": "Mango Chia Protein Parfait",
+    "ingredients": [
+      {
+        "name": "Greek yogurt",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "frozen mango",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "chia seeds",
+        "quantity": 15,
+        "unit": "g"
+      },
+      {
+        "name": "pumpkin seeds",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "quantity": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Wash and prepare frozen mango; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for mango chia protein parfait, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 469,
+    "protein": 30,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-11",
+    "day": 11,
+    "category": "breakfast",
+    "name": "Mushroom Spinach Omelet",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "egg whites",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cheddar",
+        "quantity": 35,
+        "unit": "g"
+      },
+      {
+        "name": "whole wheat bread",
+        "quantity": 2,
+        "unit": "slices"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook eggs, egg whites in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for mushroom spinach omelet, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 552,
+    "protein": 48,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-12",
+    "day": 12,
+    "category": "breakfast",
+    "name": "Banana Walnut Breakfast Quinoa",
+    "ingredients": [
+      {
+        "name": "quinoa",
+        "quantity": 70,
+        "unit": "g dry"
+      },
+      {
+        "name": "milk",
+        "quantity": 240,
+        "unit": "ml"
+      },
+      {
+        "name": "banana",
+        "quantity": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "walnuts",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare quinoa until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Wash and prepare banana; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for banana walnut breakfast quinoa, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 650,
+    "protein": 22,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-13",
+    "day": 13,
+    "category": "breakfast",
+    "name": "Turkey Potato Breakfast Skillet",
+    "ingredients": [
+      {
+        "name": "turkey mince",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "mixed peppers",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook turkey mince, eggs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for turkey potato breakfast skillet, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 644,
+    "protein": 57,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-14",
+    "day": 14,
+    "category": "breakfast",
+    "name": "Berry Peanut Butter Toast",
+    "ingredients": [
+      {
+        "name": "whole wheat bread",
+        "quantity": 2,
+        "unit": "slices"
+      },
+      {
+        "name": "peanut butter",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "name": "strawberries",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Greek yogurt",
+        "quantity": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Wash and prepare strawberries; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for berry peanut butter toast, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 478,
+    "protein": 35,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-15",
+    "day": 15,
+    "category": "breakfast",
+    "name": "Savory Cottage Cheese Toast",
+    "ingredients": [
+      {
+        "name": "cottage cheese",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "whole wheat bread",
+        "quantity": 2,
+        "unit": "slices"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "avocado",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "dried herbs",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Wash and prepare tomatoes, avocado; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for savory cottage cheese toast, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 482,
+    "protein": 34,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-16",
+    "day": 16,
+    "category": "breakfast",
+    "name": "Chickpea Egg Breakfast Bowl",
+    "ingredients": [
+      {
+        "name": "chickpeas",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salsa",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook eggs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for chickpea egg breakfast bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 521,
+    "protein": 30,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-17",
+    "day": 17,
+    "category": "breakfast",
+    "name": "Warm Apple Protein Oatmeal",
+    "ingredients": [
+      {
+        "name": "rolled oats",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 240,
+        "unit": "ml"
+      },
+      {
+        "name": "apple",
+        "quantity": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "Greek yogurt",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "chia seeds",
+        "quantity": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare rolled oats until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Wash and prepare apple; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for warm apple protein oatmeal, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 680,
+    "protein": 40,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-18",
+    "day": 18,
+    "category": "breakfast",
+    "name": "Breakfast Pita with Eggs & Feta",
+    "ingredients": [
+      {
+        "name": "pita bread",
+        "quantity": 1,
+        "unit": "large"
+      },
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "feta",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook eggs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare tomatoes, cucumber; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for breakfast pita with eggs & feta, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 466,
+    "protein": 27,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-19",
+    "day": 19,
+    "category": "breakfast",
+    "name": "Tropical Yogurt Oat Bowl",
+    "ingredients": [
+      {
+        "name": "Greek yogurt",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "rolled oats",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "name": "frozen mango",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "banana",
+        "quantity": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "pumpkin seeds",
+        "quantity": 25,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare rolled oats until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Wash and prepare frozen mango, banana; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for tropical yogurt oat bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 727,
+    "protein": 38,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-20",
+    "day": 20,
+    "category": "breakfast",
+    "name": "Sweet Potato Turkey Breakfast Wrap",
+    "ingredients": [
+      {
+        "name": "whole wheat tortilla",
+        "quantity": 1,
+        "unit": "large"
+      },
+      {
+        "name": "turkey sausage",
+        "quantity": 90,
+        "unit": "g"
+      },
+      {
+        "name": "sweet potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "salsa",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare sweet potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook turkey sausage, eggs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Combine the components for sweet potato turkey breakfast wrap, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 767,
+    "protein": 39,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-21",
+    "day": 21,
+    "category": "breakfast",
+    "name": "Cinnamon Raisin Protein Oats",
+    "ingredients": [
+      {
+        "name": "rolled oats",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 240,
+        "unit": "ml"
+      },
+      {
+        "name": "raisins",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "name": "cottage cheese",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "cinnamon",
+        "quantity": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare rolled oats until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Combine the components for cinnamon raisin protein oats, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 649,
+    "protein": 41,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-22",
+    "day": 22,
+    "category": "breakfast",
+    "name": "Avocado Egg Breakfast Sandwich",
+    "ingredients": [
+      {
+        "name": "whole wheat bread",
+        "quantity": 2,
+        "unit": "slices"
+      },
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "avocado",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cheddar",
+        "quantity": 35,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook eggs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare avocado, spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for avocado egg breakfast sandwich, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 595,
+    "protein": 35,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-23",
+    "day": 23,
+    "category": "breakfast",
+    "name": "Blueberry Almond Quinoa Bowl",
+    "ingredients": [
+      {
+        "name": "quinoa",
+        "quantity": 70,
+        "unit": "g dry"
+      },
+      {
+        "name": "Greek yogurt",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "blueberries",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "almonds",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "name": "honey",
+        "quantity": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare quinoa until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Wash and prepare blueberries; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for blueberry almond quinoa bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 655,
+    "protein": 36,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-24",
+    "day": 24,
+    "category": "breakfast",
+    "name": "Southwest Egg & Corn Scramble",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "black beans",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "corn",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "name": "mixed peppers",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "salsa",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook eggs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for southwest egg & corn scramble, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 523,
+    "protein": 33,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-25",
+    "day": 25,
+    "category": "breakfast",
+    "name": "Strawberry Banana Smoothie Bowl",
+    "ingredients": [
+      {
+        "name": "Greek yogurt",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "banana",
+        "quantity": 1,
+        "unit": "medium"
+      },
+      {
+        "name": "strawberries",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "rolled oats",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "name": "peanut butter",
+        "quantity": 25,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare rolled oats until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Wash and prepare banana, strawberries; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for strawberry banana smoothie bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 695,
+    "protein": 37,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-26",
+    "day": 26,
+    "category": "breakfast",
+    "name": "Tomato Feta Breakfast Skillet",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "feta",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "whole wheat bread",
+        "quantity": 2,
+        "unit": "slices"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook eggs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Wash and prepare tomatoes; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for tomato feta breakfast skillet, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 469,
+    "protein": 29,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-27",
+    "day": 27,
+    "category": "breakfast",
+    "name": "Cottage Cheese Mango Crunch",
+    "ingredients": [
+      {
+        "name": "cottage cheese",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "frozen mango",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "whole grain cereal",
+        "quantity": 65,
+        "unit": "g"
+      },
+      {
+        "name": "chia seeds",
+        "quantity": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare whole grain cereal until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Wash and prepare frozen mango; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for cottage cheese mango crunch, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 567,
+    "protein": 34,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-28",
+    "day": 28,
+    "category": "breakfast",
+    "name": "Turkey Spinach Breakfast Quesadilla",
+    "ingredients": [
+      {
+        "name": "whole wheat tortilla",
+        "quantity": 1,
+        "unit": "large"
+      },
+      {
+        "name": "turkey mince",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cheddar",
+        "quantity": 35,
+        "unit": "g"
+      },
+      {
+        "name": "salsa",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook turkey mince in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for turkey spinach breakfast quesadilla, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 631,
+    "protein": 56,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-29",
+    "day": 29,
+    "category": "breakfast",
+    "name": "Peanut Butter Date Overnight Oats",
+    "ingredients": [
+      {
+        "name": "rolled oats",
+        "quantity": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Greek yogurt",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "dates",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "name": "peanut butter",
+        "quantity": 25,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 240,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare rolled oats until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Combine the components for peanut butter date overnight oats, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 774,
+    "protein": 44,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "breakfast-30",
+    "day": 30,
+    "category": "breakfast",
+    "name": "Salmon Sweet Potato Breakfast Hash",
+    "ingredients": [
+      {
+        "name": "salmon",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "sweet potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "large"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare sweet potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook salmon, eggs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for salmon sweet potato breakfast hash, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 768,
+    "protein": 55,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "photo": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": "lunch-01",
+    "day": 1,
+    "category": "lunch",
+    "name": "Lemon Chicken Quinoa Power Bowl",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "quinoa",
+        "quantity": 70,
+        "unit": "g dry"
+      },
+      {
+        "name": "broccoli",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare quinoa until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken breast in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for lemon chicken quinoa power bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 613,
+    "protein": 52,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-02",
+    "day": 2,
+    "category": "lunch",
+    "name": "Beef & Black Bean Burrito Bowl",
+    "ingredients": [
+      {
+        "name": "lean ground beef",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "black beans",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "salsa",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "avocado",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook lean ground beef in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare avocado; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for beef & black bean burrito bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 914,
+    "protein": 56,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-03",
+    "day": 3,
+    "category": "lunch",
+    "name": "Tuna Chickpea Mediterranean Salad",
+    "ingredients": [
+      {
+        "name": "tuna canned",
+        "quantity": 140,
+        "unit": "g drained"
+      },
+      {
+        "name": "chickpeas",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Wash and prepare cucumber, tomatoes; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for tuna chickpea mediterranean salad, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 547,
+    "protein": 49,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-04",
+    "day": 4,
+    "category": "lunch",
+    "name": "Turkey Hummus Veggie Wrap",
+    "ingredients": [
+      {
+        "name": "turkey mince",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "whole wheat tortilla",
+        "quantity": 1,
+        "unit": "large"
+      },
+      {
+        "name": "hummus",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "mixed peppers",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook turkey mince in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for turkey hummus veggie wrap, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 638,
+    "protein": 53,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-05",
+    "day": 5,
+    "category": "lunch",
+    "name": "Salmon Rice & Green Bean Bowl",
+    "ingredients": [
+      {
+        "name": "salmon",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "green beans",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook salmon in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for salmon rice & green bean bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 690,
+    "protein": 42,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-06",
+    "day": 6,
+    "category": "lunch",
+    "name": "Chicken Pesto-Style Pasta",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "whole wheat pasta",
+        "quantity": 80,
+        "unit": "g dry"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "dried herbs",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare whole wheat pasta until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken breast in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for chicken pesto-style pasta, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 590,
+    "protein": 52,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-07",
+    "day": 7,
+    "category": "lunch",
+    "name": "Lamb Lentil Stew",
+    "ingredients": [
+      {
+        "name": "lamb",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "lentils",
+        "quantity": 170,
+        "unit": "g cooked"
+      },
+      {
+        "name": "carrots",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable stock",
+        "quantity": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook lamb in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for lamb lentil stew, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 623,
+    "protein": 49,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-08",
+    "day": 8,
+    "category": "lunch",
+    "name": "Shrimp & Pepper Rice Bowl",
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "mixed peppers",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook shrimp in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for shrimp & pepper rice bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 564,
+    "protein": 44,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-09",
+    "day": 9,
+    "category": "lunch",
+    "name": "Beef Sweet Potato Meal Prep",
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "sweet potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "broccoli",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare sweet potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook beef sirloin in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for beef sweet potato meal prep, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 626,
+    "protein": 45,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-10",
+    "day": 10,
+    "category": "lunch",
+    "name": "Chicken Chickpea Pita",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "chickpeas",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "pita bread",
+        "quantity": 1,
+        "unit": "large"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "plain yogurt",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook chicken thighs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare cucumber; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for chicken chickpea pita, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 722,
+    "protein": 57,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-11",
+    "day": 11,
+    "category": "lunch",
+    "name": "Turkey & Bean Chili",
+    "ingredients": [
+      {
+        "name": "turkey mince",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "black beans",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook turkey mince in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for turkey & bean chili, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 518,
+    "protein": 52,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-12",
+    "day": 12,
+    "category": "lunch",
+    "name": "Cod & Potato Herb Plate",
+    "ingredients": [
+      {
+        "name": "cod",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "green beans",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook cod in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for cod & potato herb plate, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 489,
+    "protein": 40,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-13",
+    "day": 13,
+    "category": "lunch",
+    "name": "Chicken Avocado Rice Salad",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "avocado",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken breast in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare avocado, tomatoes, spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for chicken avocado rice salad, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 652,
+    "protein": 50,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-14",
+    "day": 14,
+    "category": "lunch",
+    "name": "Lamb Quinoa Tabbouleh Bowl",
+    "ingredients": [
+      {
+        "name": "lamb",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "quinoa",
+        "quantity": 70,
+        "unit": "g dry"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare quinoa until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook lamb in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare cucumber, tomatoes; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for lamb quinoa tabbouleh bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 639,
+    "protein": 44,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-15",
+    "day": 15,
+    "category": "lunch",
+    "name": "Tuna Pasta Protein Salad",
+    "ingredients": [
+      {
+        "name": "tuna canned",
+        "quantity": 140,
+        "unit": "g drained"
+      },
+      {
+        "name": "whole wheat pasta",
+        "quantity": 80,
+        "unit": "g dry"
+      },
+      {
+        "name": "edamame",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "plain yogurt",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare whole wheat pasta until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Wash and prepare cucumber; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for tuna pasta protein salad, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 706,
+    "protein": 68,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-16",
+    "day": 16,
+    "category": "lunch",
+    "name": "Beef & Broccoli Rice",
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "broccoli",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook beef sirloin in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for beef & broccoli rice, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 619,
+    "protein": 48,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-17",
+    "day": 17,
+    "category": "lunch",
+    "name": "Chicken Black Bean Quesadilla",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "whole wheat tortilla",
+        "quantity": 1,
+        "unit": "large"
+      },
+      {
+        "name": "black beans",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "cheddar",
+        "quantity": 35,
+        "unit": "g"
+      },
+      {
+        "name": "salsa",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook chicken breast in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Combine the components for chicken black bean quesadilla, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 780,
+    "protein": 68,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-18",
+    "day": 18,
+    "category": "lunch",
+    "name": "Shrimp Chickpea Lemon Salad",
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "chickpeas",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook shrimp in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare tomatoes, cucumber; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for shrimp chickpea lemon salad, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 467,
+    "protein": 51,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-19",
+    "day": 19,
+    "category": "lunch",
+    "name": "Turkey Meatball Tomato Pasta",
+    "ingredients": [
+      {
+        "name": "turkey mince",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "whole wheat pasta",
+        "quantity": 80,
+        "unit": "g dry"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "dried herbs",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare whole wheat pasta until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook turkey mince in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for turkey meatball tomato pasta, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 586,
+    "protein": 52,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-20",
+    "day": 20,
+    "category": "lunch",
+    "name": "Salmon & Lentil Power Plate",
+    "ingredients": [
+      {
+        "name": "salmon",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "lentils",
+        "quantity": 170,
+        "unit": "g cooked"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook salmon in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for salmon & lentil power plate, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 591,
+    "protein": 51,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-21",
+    "day": 21,
+    "category": "lunch",
+    "name": "Chicken Sweet Potato Soup",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "sweet potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable stock",
+        "quantity": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare sweet potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken thighs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for chicken sweet potato soup, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 537,
+    "protein": 40,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-22",
+    "day": 22,
+    "category": "lunch",
+    "name": "Beef & Pepper Fajita Wrap",
+    "ingredients": [
+      {
+        "name": "lean ground beef",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "whole wheat tortilla",
+        "quantity": 1,
+        "unit": "large"
+      },
+      {
+        "name": "mixed peppers",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "plain yogurt",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook lean ground beef in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for beef & pepper fajita wrap, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 639,
+    "protein": 49,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-23",
+    "day": 23,
+    "category": "lunch",
+    "name": "Cod Tomato Chickpea Skillet",
+    "ingredients": [
+      {
+        "name": "cod",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "chickpeas",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "dried herbs",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook cod in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for cod tomato chickpea skillet, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 481,
+    "protein": 48,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-24",
+    "day": 24,
+    "category": "lunch",
+    "name": "Chicken Edamame Grain Bowl",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "edamame",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "quinoa",
+        "quantity": 70,
+        "unit": "g dry"
+      },
+      {
+        "name": "carrots",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 15,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare quinoa until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken breast in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for chicken edamame grain bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 713,
+    "protein": 66,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-25",
+    "day": 25,
+    "category": "lunch",
+    "name": "Lamb & Roasted Vegetable Pita",
+    "ingredients": [
+      {
+        "name": "lamb",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "pita bread",
+        "quantity": 1,
+        "unit": "large"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "mixed peppers",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "plain yogurt",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook lamb in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for lamb & roasted vegetable pita, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 622,
+    "protein": 47,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-26",
+    "day": 26,
+    "category": "lunch",
+    "name": "Turkey Stuffed Sweet Potato",
+    "ingredients": [
+      {
+        "name": "turkey mince",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "sweet potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "black beans",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "salsa",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare sweet potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook turkey mince in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Combine the components for turkey stuffed sweet potato, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 671,
+    "protein": 54,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-27",
+    "day": 27,
+    "category": "lunch",
+    "name": "Shrimp Quinoa Cucumber Bowl",
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "quinoa",
+        "quantity": 70,
+        "unit": "g dry"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "avocado",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare quinoa until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook shrimp in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare cucumber, avocado; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for shrimp quinoa cucumber bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 580,
+    "protein": 48,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-28",
+    "day": 28,
+    "category": "lunch",
+    "name": "Beef Lentil Tomato Soup",
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "lentils",
+        "quantity": 170,
+        "unit": "g cooked"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable stock",
+        "quantity": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook beef sirloin in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for beef lentil tomato soup, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 591,
+    "protein": 54,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-29",
+    "day": 29,
+    "category": "lunch",
+    "name": "Salmon Avocado Pita",
+    "ingredients": [
+      {
+        "name": "salmon",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "pita bread",
+        "quantity": 1,
+        "unit": "large"
+      },
+      {
+        "name": "avocado",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook salmon in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare avocado, spinach, cucumber; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for salmon avocado pita, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 694,
+    "protein": 46,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "lunch-30",
+    "day": 30,
+    "category": "lunch",
+    "name": "Chicken & Corn Rice Skillet",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "corn",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "name": "mixed peppers",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "paprika",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken thighs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for chicken & corn rice skillet, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 654,
+    "protein": 44,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-01",
+    "day": 1,
+    "category": "dinner",
+    "name": "Garlic Herb Chicken Drumsticks",
+    "ingredients": [
+      {
+        "name": "chicken drumsticks",
+        "quantity": 220,
+        "unit": "g raw"
+      },
+      {
+        "name": "potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "green beans",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken drumsticks in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for garlic herb chicken drumsticks, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 598,
+    "protein": 40,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-02",
+    "day": 2,
+    "category": "dinner",
+    "name": "Slow-Simmered Beef & Lentil Ragu",
+    "ingredients": [
+      {
+        "name": "lean ground beef",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "lentils",
+        "quantity": 170,
+        "unit": "g cooked"
+      },
+      {
+        "name": "whole wheat pasta",
+        "quantity": 80,
+        "unit": "g dry"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare whole wheat pasta until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook lean ground beef in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for slow-simmered beef & lentil ragu, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 849,
+    "protein": 63,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-03",
+    "day": 3,
+    "category": "dinner",
+    "name": "Lemon Salmon & Roasted Broccoli",
+    "ingredients": [
+      {
+        "name": "salmon",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "quinoa",
+        "quantity": 70,
+        "unit": "g dry"
+      },
+      {
+        "name": "broccoli",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare quinoa until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook salmon in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for lemon salmon & roasted broccoli, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 763,
+    "protein": 48,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-04",
+    "day": 4,
+    "category": "dinner",
+    "name": "Lamb & Chickpea Tomato Stew",
+    "ingredients": [
+      {
+        "name": "lamb",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "chickpeas",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook lamb in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for lamb & chickpea tomato stew, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 686,
+    "protein": 48,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-05",
+    "day": 5,
+    "category": "dinner",
+    "name": "Turkey Meatballs with Whole Wheat Spaghetti",
+    "ingredients": [
+      {
+        "name": "turkey mince",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "whole wheat pasta",
+        "quantity": 80,
+        "unit": "g dry"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare whole wheat pasta until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook turkey mince in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for turkey meatballs with whole wheat spaghetti, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 592,
+    "protein": 52,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-06",
+    "day": 6,
+    "category": "dinner",
+    "name": "Sheet-Pan Chicken Thighs & Roots",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "sweet potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare sweet potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken thighs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for sheet-pan chicken thighs & roots, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 614,
+    "protein": 38,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-07",
+    "day": 7,
+    "category": "dinner",
+    "name": "Garlic Shrimp & Brown Rice",
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook shrimp in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for garlic shrimp & brown rice, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 549,
+    "protein": 44,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-08",
+    "day": 8,
+    "category": "dinner",
+    "name": "Beef Stir Fry with Peppers",
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "mixed peppers",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "broccoli",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 15,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook beef sirloin in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for beef stir fry with peppers, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 655,
+    "protein": 50,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-09",
+    "day": 9,
+    "category": "dinner",
+    "name": "Herb Cod & Potato Traybake",
+    "ingredients": [
+      {
+        "name": "cod",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "green beans",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "dried herbs",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook cod in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Wash and prepare tomatoes; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for herb cod & potato traybake, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 429,
+    "protein": 41,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-10",
+    "day": 10,
+    "category": "dinner",
+    "name": "Chicken & Black Bean Chili",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "black beans",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "corn",
+        "quantity": 120,
+        "unit": "g"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook chicken breast in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Combine the components for chicken & black bean chili, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 568,
+    "protein": 57,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-11",
+    "day": 11,
+    "category": "dinner",
+    "name": "Lamb Rice Pilaf",
+    "ingredients": [
+      {
+        "name": "lamb",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "carrots",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "dried herbs",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook lamb in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for lamb rice pilaf, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 687,
+    "protein": 40,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-12",
+    "day": 12,
+    "category": "dinner",
+    "name": "Salmon Sweet Potato Power Plate",
+    "ingredients": [
+      {
+        "name": "salmon",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "sweet potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare sweet potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook salmon in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for salmon sweet potato power plate, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 602,
+    "protein": 41,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-13",
+    "day": 13,
+    "category": "dinner",
+    "name": "Turkey Stuffed Peppers",
+    "ingredients": [
+      {
+        "name": "turkey mince",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "mixed peppers",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "cheddar",
+        "quantity": 35,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook turkey mince in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for turkey stuffed peppers, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 735,
+    "protein": 54,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-14",
+    "day": 14,
+    "category": "dinner",
+    "name": "Chicken Chickpea Curry-Style Bowl",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "chickpeas",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "cumin",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken thighs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Combine the components for chicken chickpea curry-style bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 799,
+    "protein": 53,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-15",
+    "day": 15,
+    "category": "dinner",
+    "name": "Beef & Mushroom Potato Skillet",
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook beef sirloin in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for beef & mushroom potato skillet, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 528,
+    "protein": 48,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-16",
+    "day": 16,
+    "category": "dinner",
+    "name": "Shrimp Tomato Pasta",
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "whole wheat pasta",
+        "quantity": 80,
+        "unit": "g dry"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "dried herbs",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare whole wheat pasta until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook shrimp in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for shrimp tomato pasta, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 523,
+    "protein": 51,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-17",
+    "day": 17,
+    "category": "dinner",
+    "name": "Roasted Drumsticks & Quinoa",
+    "ingredients": [
+      {
+        "name": "chicken drumsticks",
+        "quantity": 220,
+        "unit": "g raw"
+      },
+      {
+        "name": "quinoa",
+        "quantity": 70,
+        "unit": "g dry"
+      },
+      {
+        "name": "broccoli",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "paprika",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare quinoa until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken drumsticks in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for roasted drumsticks & quinoa, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 665,
+    "protein": 47,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-18",
+    "day": 18,
+    "category": "dinner",
+    "name": "Cod & Lentil Mediterranean Bake",
+    "ingredients": [
+      {
+        "name": "cod",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "lentils",
+        "quantity": 170,
+        "unit": "g cooked"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook cod in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Wash and prepare tomatoes; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for cod & lentil mediterranean bake, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 416,
+    "protein": 49,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-19",
+    "day": 19,
+    "category": "dinner",
+    "name": "Lamb Sweet Potato Shepherd Bowl",
+    "ingredients": [
+      {
+        "name": "lamb",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "sweet potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "green beans",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare sweet potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook lamb in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for lamb sweet potato shepherd bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 685,
+    "protein": 41,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-20",
+    "day": 20,
+    "category": "dinner",
+    "name": "Chicken Fajita Rice Dinner",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "mixed peppers",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "black beans",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "salsa",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken breast in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for chicken fajita rice dinner, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 745,
+    "protein": 60,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-21",
+    "day": 21,
+    "category": "dinner",
+    "name": "Salmon & Edamame Noodle Bowl",
+    "ingredients": [
+      {
+        "name": "salmon",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "whole wheat pasta",
+        "quantity": 80,
+        "unit": "g dry"
+      },
+      {
+        "name": "edamame",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare whole wheat pasta until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook salmon in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for salmon & edamame noodle bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 846,
+    "protein": 66,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-22",
+    "day": 22,
+    "category": "dinner",
+    "name": "Turkey & Chickpea Stew",
+    "ingredients": [
+      {
+        "name": "turkey mince",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "chickpeas",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "carrots",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "vegetable stock",
+        "quantity": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook turkey mince in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for turkey & chickpea stew, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 600,
+    "protein": 52,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-23",
+    "day": 23,
+    "category": "dinner",
+    "name": "Beef Broccoli Quinoa Skillet",
+    "ingredients": [
+      {
+        "name": "lean ground beef",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "quinoa",
+        "quantity": 70,
+        "unit": "g dry"
+      },
+      {
+        "name": "broccoli",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 15,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare quinoa until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook lean ground beef in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for beef broccoli quinoa skillet, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 627,
+    "protein": 50,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-24",
+    "day": 24,
+    "category": "dinner",
+    "name": "Chicken Lemon Potato Bake",
+    "ingredients": [
+      {
+        "name": "chicken thighs",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "lemons",
+        "quantity": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken thighs in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for chicken lemon potato bake, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 538,
+    "protein": 39,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-25",
+    "day": 25,
+    "category": "dinner",
+    "name": "Shrimp & Black Bean Stuffed Peppers",
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "black beans",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "mixed peppers",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "salsa",
+        "quantity": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook shrimp in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for shrimp & black bean stuffed peppers, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 701,
+    "protein": 58,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-26",
+    "day": 26,
+    "category": "dinner",
+    "name": "Lamb & Lentil Rice Bowl",
+    "ingredients": [
+      {
+        "name": "lamb",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "lentils",
+        "quantity": 170,
+        "unit": "g cooked"
+      },
+      {
+        "name": "brown rice",
+        "quantity": 75,
+        "unit": "g dry"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "plain yogurt",
+        "quantity": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare brown rice until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook lamb in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare cucumber; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for lamb & lentil rice bowl, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 873,
+    "protein": 58,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-27",
+    "day": 27,
+    "category": "dinner",
+    "name": "Cod & Chickpea Herb Tray",
+    "ingredients": [
+      {
+        "name": "cod",
+        "quantity": 180,
+        "unit": "g raw"
+      },
+      {
+        "name": "chickpeas",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "zucchini",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Cook cod in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Wash and prepare tomatoes; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for cod & chickpea herb tray, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 533,
+    "protein": 48,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-28",
+    "day": 28,
+    "category": "dinner",
+    "name": "Turkey Sweet Potato Chili",
+    "ingredients": [
+      {
+        "name": "turkey mince",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "sweet potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "black beans",
+        "quantity": 150,
+        "unit": "g cooked"
+      },
+      {
+        "name": "tomato passata",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "paprika",
+        "quantity": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare sweet potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook turkey mince in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Combine the components for turkey sweet potato chili, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 699,
+    "protein": 55,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-29",
+    "day": 29,
+    "category": "dinner",
+    "name": "Chicken Garlic Spinach Pasta",
+    "ingredients": [
+      {
+        "name": "chicken breast",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "whole wheat pasta",
+        "quantity": 80,
+        "unit": "g dry"
+      },
+      {
+        "name": "spinach",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "quantity": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "feta",
+        "quantity": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare whole wheat pasta until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook chicken breast in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Wash and prepare spinach; add cold toppings after hot ingredients have cooked.",
+      "Combine the components for chicken garlic spinach pasta, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 622,
+    "protein": 58,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  },
+  {
+    "id": "dinner-30",
+    "day": 30,
+    "category": "dinner",
+    "name": "Beef & Vegetable Sunday Roast",
+    "ingredients": [
+      {
+        "name": "beef sirloin",
+        "quantity": 170,
+        "unit": "g raw"
+      },
+      {
+        "name": "potatoes",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "carrots",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "green beans",
+        "quantity": 180,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "Measure and prepare every ingredient listed for one serving; multiply quantities for your household.",
+      "Prepare potatoes until tender, following package instructions or roasting diced potatoes at 200\u00b0C / 400\u00b0F for about 25\u201335 minutes.",
+      "Cook beef sirloin in a skillet or oven until safely cooked through (poultry 74\u00b0C / 165\u00b0F; ground meats 71\u00b0C / 160\u00b0F; fish 63\u00b0C / 145\u00b0F, or according to applicable local guidance).",
+      "Saut\u00e9, steam or roast the vegetables until tender; add garlic, herbs or spices if listed.",
+      "Combine the components for beef & vegetable sunday roast, add the remaining listed ingredients and serve. Refrigerate leftovers promptly."
+    ],
+    "kcal": 661,
+    "protein": 45,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "photo": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1000&q=85",
+    "imageNote": "Representative food photography; may not depict exact recipe",
+    "tags": [
+      "High protein",
+      "Family-friendly",
+      "Meal prep"
+    ]
+  }
+]
