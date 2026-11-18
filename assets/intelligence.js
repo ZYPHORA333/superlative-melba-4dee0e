@@ -48,7 +48,8 @@ async function loadAlerts(){
  quakes=data[1].status==="fulfilled"?(data[1].value.features||[]):(failures.push("USGS earthquakes"),[]);
  renderAlerts();
 }
-function renderAlerts(){
+function showSelectedDisaster(item){const target=byId("selectedDisaster");if(!target)return;target.replaceChildren();const p=item.properties||{},q=item.geometry?.coordinates;const title=item.kind==="quake"?"M "+Number(p.mag||0).toFixed(1)+" earthquake":p.event||"Weather alert";target.append(element("h3",title),element("p",item.kind==="quake"?(p.place||"Location unavailable"):(p.headline||p.areaDesc||"Official NWS alert")),element("p",item.kind==="quake"?"Occurred: "+new Date(p.time).toLocaleString()+" · Depth: "+(Array.isArray(q)?q[2]:"Unknown")+" km":"Severity: "+(p.severity||"Unspecified")+" · Areas: "+(p.areaDesc||"Unspecified")));target.append(link("Open full official report ↗",safeUrl(p.url||p["@id"]||p.uri,item.kind==="quake"?"https://earthquake.usgs.gov/earthquakes/map/":"https://www.weather.gov/alerts")));target.hidden=false;target.scrollIntoView({behavior:"smooth",block:"nearest"})}
+function renderAlerts(){const selectedPanel=byId("selectedDisaster");if(selectedPanel){selectedPanel.replaceChildren();selectedPanel.hidden=true}
  const state=byId("alertState").value,root=byId("nationalAlerts");root.replaceChildren();if(alertPins)alertPins.clearLayers();
  const inState=x=>{const p=x.properties||{};if(!state)return true;const ugc=p.geocode?.UGC||[];const sameUGC=ugc.some(v=>v.startsWith(state));const parts=(p.areaDesc||"").split(/[;,]/).map(s=>s.trim().toLowerCase());const full=states[state].toLowerCase();const sameArea=parts.some(s=>s===full||s.endsWith(", "+full));return sameUGC||sameArea};
  const unique=new Set();
@@ -58,9 +59,9 @@ function renderAlerts(){
  for(const q of quakes){const p=q.properties||{},coords=q.geometry?.coordinates;if(!coords||coords.length<2)continue;
   if(state){const name=(p.place||"").toLowerCase(),full=states[state].toLowerCase();if(!name.endsWith(", "+state.toLowerCase())&&!name.endsWith(", "+full))continue}
   earthquakeCount++;if(earthquakeCount<=20)root.append(sourceCard("M "+Number(p.mag||0).toFixed(1)+" earthquake",p.place||"Location not specified",safeUrl(p.url,"https://earthquake.usgs.gov/earthquakes/map/"),"USGS · "+new Date(p.time).toLocaleString()));
-  if(alertPins){const marker=L.circleMarker([coords[1],coords[0]],{radius:Math.max(4,Math.min(13,(+p.mag||0)*2)),color:"#b35e37",fillOpacity:.7});marker.addTo(alertPins).bindPopup(element("span","M "+p.mag+" · "+(p.place||"Earthquake")))}
+  if(alertPins){const marker=L.circleMarker([coords[1],coords[0]],{radius:Math.max(4,Math.min(13,(+p.mag||0)*2)),color:"#b35e37",fillOpacity:.7});marker.addTo(alertPins).bindPopup(element("span","M "+p.mag+" · "+(p.place||"Earthquake")));marker.on("click",()=>showSelectedDisaster({...q,kind:"quake"}))}
  }
- for(const x of selected){const geom=x.geometry;if(!geom||!alertPins)continue;try{const layer=L.geoJSON(geom,{style:{color:"#df9a4e",weight:2,fillOpacity:.1}});layer.addTo(alertPins)}catch{}}
+ for(const x of selected){const geom=x.geometry;if(!geom||!alertPins)continue;try{const layer=L.geoJSON(geom,{style:{color:"#df9a4e",weight:2,fillOpacity:.1}});layer.addTo(alertPins);layer.on("click",()=>showSelectedDisaster({...x,kind:"alert"}))}catch{}}
  if(!selected.length&&!earthquakeCount)root.append(sourceCard("No reports in this selection","No matching records returned from the current feeds. This does not establish that an area is safe.","https://www.weather.gov/alerts","Check local emergency management"));
  if(failures.length)for(const name of failures)root.prepend(sourceCard(name+" temporarily unavailable","Live source could not be reached from this browser. Open the official website for current information.",name.startsWith("NWS")?"https://www.weather.gov/alerts":"https://earthquake.usgs.gov/earthquakes/map/","Source connection failed"));
  byId("intelStatus").textContent="Last checked "+new Date().toLocaleString()+" · "+selected.length+" NWS alerts · "+earthquakeCount+" USGS earthquakes"+(failures.length?" · Unavailable: "+failures.join(", "):"")+". Map shows located earthquakes and available alert polygons; some alerts lack geometry.";
