@@ -1,18 +1,37 @@
 const $=id=>document.getElementById(id);
-const providers=[{name:"LandWatch",url:"https://www.landwatch.com/",desc:"Rural land, farms, ranches, acreage and listing photographs"},{name:"Land.com",url:"https://www.land.com/",desc:"Land listings with seller photos, acreage and broker details"},{name:"Land And Farm",url:"https://www.landandfarm.com/",desc:"Farms, recreational parcels and rural land"},{name:"LandApp",url:"https://www.landapp.com/landapp-features/listings",desc:"Nationwide land listings with parcel research tools"}];
+const providers=[
+ {name:"LandWatch",domain:"landwatch.com",desc:"Acreage, homesteads, farms and rural property photos",url:"https://www.landwatch.com/"},
+ {name:"Land.com",domain:"land.com",desc:"Rural and residential acreage listings with broker photography",url:"https://www.land.com/"},
+ {name:"Land And Farm",domain:"landandfarm.com",desc:"Farms, ranches and recreational land",url:"https://www.landandfarm.com/"},
+ {name:"LandSearch",domain:"landsearch.com",desc:"Land parcels, acreage and undeveloped property listings",url:"https://www.landsearch.com/"}
+];
+const landFields=()=>({area:$("landQuery").value.trim(),min:$("landMin").value.trim(),max:$("landMax").value.trim()});
+const landTerms=({area,min,max})=>[area||"United States","land for sale",min?"at least "+min+" acres":"",max?"under $"+max:""].filter(Boolean).join(" ");
 function renderLand(){
-  const q=$("landQuery").value.trim(), min=$("landMin").value,max=$("landMax").value;
-  $("landProviderList").replaceChildren();
-  for(const p of providers){
-    const card=document.createElement("article");card.className="intel-card";
-    const h=document.createElement("h3");h.textContent=p.name;
-    const desc=document.createElement("p");desc.textContent=p.desc;
-    const a=document.createElement("a");a.href=p.url;a.target="_blank";a.rel="noopener noreferrer";a.textContent="Browse verified source listings and property photos ↗";
-    card.append(h,desc,a);$("landProviderList").append(card);
-  }
-  $("landSearchNote").textContent=q||min||max?"Search preferences: "+[q&&"Area: "+q,min&&"Min acres: "+min,max&&"Max price: $"+max].filter(Boolean).join(" · ")+". Open a provider above and apply these filters there. NORTHSTAR does not claim to import or verify their listings.":"Choose a provider to view actual listings and photographs on its website.";
+ const fields=landFields(),root=$("landProviderList");root.replaceChildren();
+ const min=fields.min===""?null:Number(fields.min),max=fields.max===""?null:Number(fields.max);
+ if((min!==null&&(!Number.isFinite(min)||min<0))||(max!==null&&(!Number.isFinite(max)||max<0))){
+   $("landSearchNote").textContent="Please enter nonnegative acreage and price values.";return;
+ }
+ const query=landTerms(fields);
+ const heading=document.createElement("p");heading.className="intel-search-summary";
+ heading.textContent="Search prepared for: "+query+". Choose a marketplace below to view matching live listings and photos. Filters may need adjustment on the marketplace.";
+ root.append(heading);
+ for(const p of providers){
+   const card=document.createElement("article");card.className="intel-card";
+   const h=document.createElement("h3");h.textContent=p.name;
+   const desc=document.createElement("p");desc.textContent=p.desc;
+   const a=document.createElement("a");a.target="_blank";a.rel="noopener noreferrer";
+   a.href="https://www.google.com/search?"+new URLSearchParams({q:"site:"+p.domain+" "+query}).toString();
+   a.textContent="Find "+(fields.area||"U.S.")+" listings & photos ↗";
+   const home=document.createElement("a");home.href=p.url;home.target="_blank";home.rel="noopener noreferrer";home.className="intel-secondary";home.textContent="Browse marketplace directly ↗";
+   card.append(h,desc,a,home);root.append(card);
+ }
+ $("landSearchNote").textContent="Search updated. These are real marketplace search links, not live listings embedded in NORTHSTAR. Google results can be outdated; confirm price, availability and acreage on the listing.";
 }
-$("landSearch").onclick=renderLand;renderLand();
+$("landSearch").addEventListener("click",renderLand);
+["landQuery","landMin","landMax"].forEach(id=>$(id).addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();renderLand()}}));
+renderLand();
 const status=(s)=>{$("intelStatus").textContent=s};
 const badge=(text)=>{const s=document.createElement("span");s.className="intel-tag";s.textContent=text;return s};
 const add=(root,title,desc,url,meta)=>{
