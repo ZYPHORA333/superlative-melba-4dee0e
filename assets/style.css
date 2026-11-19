@@ -150,3 +150,20 @@ a:focus-visible,button:focus-visible{outline:3px solid #efc981;outline-offset:3p
 #gold-market{scroll-margin-top:85px}
 #command{scroll-margin-top:85px}
 #home .sg-note{font-weight:600}
+
+/* Duration-based meal package planner */
+.meal-preset-controls{display:flex;flex-wrap:wrap;align-items:end;gap:16px;margin:20px 0}
+.meal-preset-controls label{display:grid;gap:7px;min-width:180px}
+.meal-preset-controls select,.meal-preset-controls input{width:100%;min-height:42px}
+#mealPackageGrid.package-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.meal-day-card{padding:16px 20px}
+.meal-day-card details{margin:0}
+.meal-day-card summary{font-size:1.05rem}
+.meal-preset-row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.14)}
+.meal-preset-row div{display:grid;gap:4px}
+.meal-preset-row small{text-transform:uppercase;letter-spacing:.08em;color:#dfbd86}
+.meal-preset-row strong{font-size:.95rem}
+.meal-preset-row span{font-size:.8rem;color:#b8c7d5}
+.meal-preset-row button{flex-shrink:0;border:1px solid #dfbd86;border-radius:9px;background:transparent;color:#f2d6a8;padding:8px 11px;cursor:pointer}
+.meal-preset-total{font-weight:700;color:#f2d6a8}
+@media(max-width:780px){#mealPackageGrid.package-grid{grid-template-columns:1fr}.meal-preset-controls label{flex:1 1 140px}}
