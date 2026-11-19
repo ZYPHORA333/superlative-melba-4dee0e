@@ -122,3 +122,23 @@ a:focus-visible,button:focus-visible{outline:3px solid #efc981;outline-offset:3p
 .build-advanced-card li{margin:10px 0;line-height:1.55}
 #buildSaveStatus{color:#f4d196;margin-top:10px}
 @media(max-width:760px){.build-advanced-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.build-advanced-card{padding:14px}}
+
+
+/* Five-hub navigation and curated meal/survival education */
+#nav{gap:10px}#nav>a{white-space:nowrap}
+.package-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:22px 0}
+.package-card,.survival-lesson{background:linear-gradient(135deg,#102a41,#0b1d2f);border:1px solid rgba(219,176,105,.45);border-radius:16px;padding:20px;color:#edf2f6}
+.package-card-header h3,.survival-lesson h3{color:#f1cc91;margin:0 0 10px}
+.package-card-header p{margin:0 0 10px}
+.package-card details,.survival-lesson details{margin-top:18px}
+.package-card summary,.survival-lesson summary{cursor:pointer;color:#f0cc91;font-weight:700;padding:8px 0}
+.package-day{border-top:1px solid #41576b;padding:14px 0}
+.package-day h4{color:#f2d19b;margin:0 0 10px}
+.package-meal{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:8px 0}
+.package-meal span{line-height:1.45}
+.package-meal button{flex-shrink:0;padding:8px 12px;border-radius:9px;background:#d7af6f;color:#10253a;border:0;cursor:pointer}
+.survival-lessons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0}
+.survival-lesson h4{color:#e8c58c;margin:15px 0 5px}
+.survival-lesson p{line-height:1.6}
+.survival-lesson a{color:#f3d39c}
+@media(max-width:760px){.package-grid,.survival-lessons{grid-template-columns:1fr}.package-meal{align-items:flex-start;flex-direction:column}}
