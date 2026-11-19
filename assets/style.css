@@ -184,3 +184,22 @@ a:focus-visible,button:focus-visible{outline:3px solid #efc981;outline-offset:3p
 .meal-supply-item strong{color:#f1d29c;text-align:right;white-space:nowrap}
 @media(max-width:900px){.meal-supply-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.meal-supply-grid{grid-template-columns:1fr}.prepared-meal-directory{padding:18px 12px}.prepared-directory-grid{grid-template-columns:1fr}}
+
+/* Unified daily meal schedule: three meals together, no accordions */
+#mealPackageGrid.package-grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:18px}
+#mealPackageGrid .meal-day-card{padding:0;overflow:hidden;border:1px solid rgba(224,188,123,.4);border-radius:17px;background:linear-gradient(120deg,#102b40,#0a1d2e);box-shadow:0 10px 25px rgba(0,0,0,.12)}
+.meal-day-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 20px;background:rgba(223,185,119,.1)}
+.meal-day-heading>span{color:#f4d39c;font-weight:800;letter-spacing:.09em}
+.meal-day-heading h3{margin:0;font-size:.9rem;color:#c4d1dc;font-weight:500}
+.meal-day-three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0}
+.meal-slot{display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:18px 20px;border-right:1px solid rgba(255,255,255,.12)}
+.meal-slot:last-child{border-right:0}
+.meal-slot small{color:#e7bb76;letter-spacing:.11em;text-transform:uppercase;font-size:.74rem;font-weight:800}
+.meal-slot strong{color:#f8fafc;line-height:1.4;font-size:1rem}
+.meal-slot span{font-size:.83rem;color:#b7c8d7}
+.meal-slot button{margin-top:auto;border:1px solid rgba(238,201,139,.7);background:transparent;color:#f4d39c;border-radius:9px;padding:8px 12px;cursor:pointer}
+.meal-slot button:hover{background:rgba(238,201,139,.15)}
+#mealPackageGrid .meal-preset-total{padding:10px 20px;margin:0;border-top:1px solid rgba(255,255,255,.12);font-size:.85rem}
+.meal-grocery-visual>summary{cursor:pointer;color:#f4d39c;font-weight:750}
+.meal-grocery-visual #mealPresetGrocery{padding-top:15px}
+@media(max-width:650px){.meal-day-three{grid-template-columns:1fr}.meal-slot{padding:14px 16px;border-right:0;border-bottom:1px solid rgba(255,255,255,.12)}.meal-slot:last-child{border-bottom:0}.meal-day-heading{padding:12px 16px}}
