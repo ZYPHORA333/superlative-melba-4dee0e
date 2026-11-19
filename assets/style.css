@@ -167,3 +167,20 @@ a:focus-visible,button:focus-visible{outline:3px solid #efc981;outline-offset:3p
 .meal-preset-row button{flex-shrink:0;border:1px solid #dfbd86;border-radius:9px;background:transparent;color:#f2d6a8;padding:8px 11px;cursor:pointer}
 .meal-preset-total{font-weight:700;color:#f2d6a8}
 @media(max-width:780px){#mealPackageGrid.package-grid{grid-template-columns:1fr}.meal-preset-controls label{flex:1 1 140px}}
+
+/* Directory-first preparedness experience, no menu tabs or downloads */
+#meals,#supreme-planner{display:none!important}
+.prepared-directory{padding:24px 0 30px}
+.prepared-directory-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(205px,1fr));gap:13px;margin:20px 0}
+.prepared-directory-grid a{display:flex;flex-direction:column;gap:10px;padding:21px;min-height:115px;border:1px solid rgba(222,180,108,.5);border-radius:16px;background:linear-gradient(135deg,#16334b,#0b1d2e);color:#f4d49d;text-decoration:none;transition:transform .2s,border-color .2s}
+.prepared-directory-grid a:hover{transform:translateY(-3px);border-color:#f4d49d}
+.prepared-directory-grid a span{color:#d4dfe8;font-size:.87rem}
+.prepared-meal-directory{padding:28px 20px;margin:16px 0 35px;border-radius:22px;border:1px solid rgba(221,181,114,.35);background:linear-gradient(140deg,#112a40,#0d1b2b)}
+.prepared-meal-directory .sectionHead{margin-bottom:20px}
+.meal-grocery-visual{margin:28px 0 14px;padding:22px;border:1px solid rgba(221,181,114,.45);border-radius:16px;background:#0c2032;color:#edf4fa}
+.meal-grocery-visual h3{color:#f4d49d}
+.meal-supply-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:16px}
+.meal-supply-item{display:flex;justify-content:space-between;gap:12px;padding:11px 13px;background:rgba(255,255,255,.05);border-radius:9px;font-size:.87rem}
+.meal-supply-item strong{color:#f1d29c;text-align:right;white-space:nowrap}
+@media(max-width:900px){.meal-supply-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.meal-supply-grid{grid-template-columns:1fr}.prepared-meal-directory{padding:18px 12px}.prepared-directory-grid{grid-template-columns:1fr}}
