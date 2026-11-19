@@ -142,3 +142,11 @@ a:focus-visible,button:focus-visible{outline:3px solid #efc981;outline-offset:3p
 .survival-lesson p{line-height:1.6}
 .survival-lesson a{color:#f3d39c}
 @media(max-width:760px){.package-grid,.survival-lessons{grid-template-columns:1fr}.package-meal{align-items:flex-start;flex-direction:column}}
+
+/* Focused homepage: alerts + gold price + one personal command center */
+#supreme-planner{display:none!important}
+#nav>a{font-weight:700}
+#national-intel{scroll-margin-top:85px}
+#gold-market{scroll-margin-top:85px}
+#command{scroll-margin-top:85px}
+#home .sg-note{font-weight:600}
