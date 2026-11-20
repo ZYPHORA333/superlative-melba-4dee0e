@@ -226,3 +226,34 @@ a:focus-visible,button:focus-visible{outline:3px solid #efc981;outline-offset:3p
 .howto-safety{border-left:3px solid #e5bf81;padding:10px 12px;background:rgba(229,191,129,.08)}
 .howto-body a{color:#f2d39c}
 @media(max-width:760px){.howto-academy{padding:15px}.howto-top{display:block}.howto-top label{min-width:0;margin-top:15px}.howto-guides{grid-template-columns:1fr}}
+
+/* ZYPHORA GROUP quote-based survival gear store */
+.zy-gear-layout{display:grid;grid-template-columns:minmax(0,1fr)minmax(290px,360px);gap:22px;align-items:start}
+.zy-gear-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 18px}
+.zy-gear-controls label,.zy-gear-cart label{display:grid;gap:7px;font-size:.9rem;color:#e6c18a}
+.zy-gear-controls select,.zy-gear-controls input,.zy-gear-cart input,.zy-gear-cart textarea{width:100%;min-width:0;min-height:44px;padding:10px 12px;border-radius:9px}
+.zy-gear-catalog{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.zy-gear-card,.zy-bundle-card{padding:19px;border:1px solid rgba(225,184,119,.4);border-radius:15px;background:linear-gradient(140deg,#122d41,#0b1e2e);display:flex;flex-direction:column;gap:9px}
+.zy-gear-card h3,.zy-bundle-card h4{margin:0;color:#f8ead2}
+.zy-gear-card p,.zy-bundle-card p{margin:0;color:#c6d5e1;line-height:1.55}
+.zy-gear-category{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:#e6c18a}
+.zy-gear-card button,.zy-bundle-card button,.zy-cart-controls button{border:1px solid #d9b77e;background:#d9b77e;color:#142637;border-radius:9px;padding:9px 13px;cursor:pointer;font-weight:750}
+.zy-gear-card button,.zy-bundle-card button{margin-top:auto}
+.zy-bundle-area{margin-top:32px}
+.zy-gear-bundles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.zy-bundle-card summary{cursor:pointer;color:#f2d49e}
+.zy-bundle-card ul{padding-left:22px}
+.zy-gear-cart{position:sticky;top:88px;border:1px solid rgba(225,184,119,.5);border-radius:18px;background:#0e2537;padding:20px;display:grid;gap:17px}
+.zy-cart-heading h3{margin:0;color:#f4d49c}
+.zy-cart-heading p{margin:7px 0 0;color:#b9ccdc;font-size:.86rem}
+.zy-cart-line{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.13)}
+.zy-cart-line>div:first-child{display:grid;gap:4px}
+.zy-cart-line small{color:#b6c8d7}
+.zy-cart-controls{display:flex;align-items:center;gap:8px}
+.zy-cart-controls button{padding:5px 10px}
+.zy-budget-label{font-weight:750}
+.zy-gear-disclaimer{font-size:.8rem;line-height:1.5;color:#c1ced8}
+#zyGearBudgetStatus{color:#f2d49e;line-height:1.5}
+#zyGearCartCount{font-size:.9rem}
+@media(max-width:1000px){.zy-gear-layout{grid-template-columns:1fr}.zy-gear-cart{position:static}.zy-gear-controls{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.zy-gear-controls,.zy-gear-catalog,.zy-gear-bundles{grid-template-columns:1fr}.zy-gear-cart{padding:15px}}
